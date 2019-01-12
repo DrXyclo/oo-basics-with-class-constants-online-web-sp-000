@@ -12,6 +12,8 @@ BRANDS = []
      # brands_array == brand
      # binding.pry
    BRANDS << brand
+   puts BRANDS
+   puts brand
  # end
   end
   
