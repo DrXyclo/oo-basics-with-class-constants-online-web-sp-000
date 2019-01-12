@@ -11,7 +11,7 @@ BRANDS = []
    # BRANDS.each do |brands_array|
      # brands_array == brand
      # binding.pry
-     if BRANDS.exclude?(brand)
+     if !BRANDS.include?(brand)
         BRANDS << brand
       end 
    
