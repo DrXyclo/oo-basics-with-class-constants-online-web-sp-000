@@ -11,7 +11,7 @@ BRANDS = []
    # BRANDS.each do |brands_array|
      # brands_array == brand
      # binding.pry
-     if BRANDS.excludes?
+     if BRANDS.exclude?
    BRANDS << brand
    puts BRANDS
    puts brand
