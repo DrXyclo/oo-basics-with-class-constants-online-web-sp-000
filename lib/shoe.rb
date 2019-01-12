@@ -11,10 +11,10 @@ BRANDS = []
    # BRANDS.each do |brands_array|
      # brands_array == brand
      # binding.pry
-     if BRANDS.exclude?
-   BRANDS << brand
-   puts BRANDS
-   puts brand
+     if BRANDS.exclude?(brand)
+        BRANDS << brand
+      end 
+   
  # end
   end
   
