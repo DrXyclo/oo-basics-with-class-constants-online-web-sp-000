@@ -8,6 +8,7 @@ class Shoe
       brands_array !=brand
     BRANDS << brand
   end
+  end
   
   BRANDS = []
 
