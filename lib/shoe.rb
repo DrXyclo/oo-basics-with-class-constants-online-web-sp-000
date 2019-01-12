@@ -4,16 +4,18 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
+BRANDS = []
+
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |brands_array|
-      brands_array == brand
-      binding.pry
-    BRANDS << brand
+   # BRANDS.each do |brands_array|
+     # brands_array == brand
+     # binding.pry
+   # BRANDS << brand
   end
   end
   
-  BRANDS = []
+  
   
 =begin 
       it 'keeps track of all brands' do
