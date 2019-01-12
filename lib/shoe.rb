@@ -12,7 +12,7 @@ BRANDS = []
      # brands_array == brand
      # binding.pry
    # BRANDS << brand
-  end
+ # end
   end
   
   
