@@ -11,7 +11,7 @@ BRANDS = []
    # BRANDS.each do |brands_array|
      # brands_array == brand
      # binding.pry
-   # BRANDS << brand
+   BRANDS << brand
  # end
   end
   
